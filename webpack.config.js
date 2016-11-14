@@ -38,7 +38,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /^node_modules$/,
-                loader: 'babel?presets=es2015'
+                loader: 'babel?presets[]=es2015,presets[]=react,presets[]=stage-0'
             }, {
                 test: /\.css$/,
                 exclude: /^node_modules$/,
